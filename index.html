@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js" defer></script>
+  <title>Aji Creations | Expenses chart component</title>
+</head>
+<body>
+  <div class="preloader">
+    <div class="header__logo">
+      <span class="header__logo-ring header__logo-white"></span>
+      <span class="header__logo-ring header__logo-dark"></span>
+    </div>
+  </div>
+  <div class="container">
+    <header>
+      <div class="header__balance">
+        <p class="header__balance-text">My balance</p>
+        <span class="header__balance-remain">₹921.48</span>
+      </div>
+      <div class="header__logo">
+        <span class="header__logo-ring header__logo-white"></span>
+        <span class="header__logo-ring header__logo-dark"></span>
+      </div>
+    </header>
+    <main>
+      <h1>Spending - Last 7 days</h1>
+      <div class="chart-container">
+        <div class="chart">
+          <div class="chart__bar"></div>
+          <span class="chart__day">mon</span>
+        </div>
+        <div class="chart">
+          <div class="chart__bar"></div>
+          <span class="chart__day">tue</span>
+        </div>
+        <div class="chart">
+          <div class="chart__bar"></div>
+          <span class="chart__day">wed</span>
+        </div>
+        <div class="chart">
+          <div class="chart__bar"></div>
+          <span class="chart__day">thu</span>
+        </div>
+        <div class="chart">
+          <div class="chart__bar"></div>
+          <span class="chart__day">fri</span>
+        </div>
+        <div class="chart">
+          <div class="chart__bar"></div>
+          <span class="chart__day">sat</span>
+        </div>
+        <div class="chart">
+          <div class="chart__bar"></div>
+          <span class="chart__day">sun</span>
+        </div>
+      </div>
+      <hr>
+      <div class="footer">
+        <section class="footer__current">
+          <p>Total this month</p>
+          <h2 class="footer__current-spend">₹478.33</h2>
+        </section>
+        <section class="footer__last">
+          <h3 class="footer__last-difference">+2.4%</h3>
+          <p>from last month</p>
+        </section>
+      </div>
+    </main>
+  </div>
+  <footer>
+    Challenge by <a href="https://developers.google.com/community/gdsc" target="_blank" rel="noopener">GDSC</a>. 
+    Coded by <a href="https://github.com/ajitharunai" rel="noopener">Ajith Kumar Murugan</a>.
+  </footer>
+</body>
+</html>
